@@ -1,5 +1,9 @@
 // 1.Array creation and initialization
 
+let arr = [1, 2, 3, 4, 5, 6]
+console.log("after creation of array: "+arr);
+
+// 16.new array with given length
 let arr13=[];
 let num=6;
 for(let i=0;i<num;i++)
@@ -67,6 +71,10 @@ let arr12=[5,4,8,7,9,5,3,6]
 arr12.sort();
 console.log("minimum method: "+arr12[0]);
 
+// 14.Array merging
+let arr14=[5,4,8,7,9,5,3,6]
+let arr15=[1,2,3,4,5,6,7,8]
+console.log("merge method: "+arr14.concat(arr15));
 
 
 
