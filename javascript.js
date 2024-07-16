@@ -1,7 +1,12 @@
 // 1.Array creation and initialization
 
-let arr = [1, 2, 3, 4, 5, 6]
-console.log("after creation of array: "+arr)
+let arr13=[];
+let num=6;
+for(let i=0;i<num;i++)
+{
+    arr13[i]=prompt("Enter the number");
+}
+console.log("after initialization of array: "+arr13)
 
 // 2.Add elements in array
 let arr1=[1,2,3,4,5,6]
